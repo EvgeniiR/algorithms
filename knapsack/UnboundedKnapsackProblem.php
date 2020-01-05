@@ -9,7 +9,7 @@ class UnboundedKnapsackProblem
      * @param int[] $itemSizes
      * @psalm-param list<int> $itemSizes
      *
-     * @return int maximum amounnt of space than can be occupied by provided set of items
+     * @return int maximum amount of space than can be occupied by provided set of items
      */
     public function solve(int $maxBackpackSize, array $itemSizes): int {
         $matrix = [];
