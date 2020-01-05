@@ -38,7 +38,7 @@ class UnboundedKnapsackProblem
                 }
             }
         }
-        $end = end($matrix);
-        return end($end);
+        $lastRow = end($matrix);
+        return end($lastRow);
     }
 }
